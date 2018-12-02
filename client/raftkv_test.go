@@ -308,7 +308,7 @@ func TestChangeConfiguration(t *testing.T) {
 	//fireChangeConfigurationRequest(t, kvc, "peer1:3001,peer2:3001,peer3:3001,peer4:3001,peer0:3001", "peer0:3001,peer2:3001,peer1:3001")
 	//fireChangeConfigurationRequest(t, kvc, "peer0:3001,peer2:3001,peer1:3001", "peer1:3001,peer2:3001,peer3:3001,peer4:3001,peer0:3001")
 	fireChangeConfigurationRequest(t, kvc, "peer1:3001,peer2:3001,peer3:3001,peer4:3001,peer0:3001", "peer1:3001,peer2:3001,peer3:3001,peer4:3001,peer0:3001,peer5:3001")
-	
+
 }
 
 /*
